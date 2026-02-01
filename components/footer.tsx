@@ -29,7 +29,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                    href="https://www.npmjs.com/package/@qhristen/paygrid"
                   className="text-gray-500 hover:text-white text-sm transition-colors"
                 >
                   Documentation
@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                                  href="https://www.npmjs.com/package/@qhristen/paygrid"
                   className="text-gray-500 hover:text-white text-sm transition-colors"
                 >
                   API Reference
