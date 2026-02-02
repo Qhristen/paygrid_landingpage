@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-[#050505] flex flex-col">
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center pt-24">
-        <h1 className="text-4xl w-5xl md:text-6xl font-black mb-6 tracking-tight">
+        <h1 className="text-3xl md:w-4xl md:text-6xl font-black mb-6 tracking-tight">
           {/* Build <span className="text-indigo-500">Web3 Checkout</span> into
             any app. */}
           Self-hosted payments with{" "}

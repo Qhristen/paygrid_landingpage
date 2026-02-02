@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@qhristen/paygrid':
-        specifier: ^0.1.6
-        version: 0.1.6(@types/react@19.2.10)(bufferutil@4.1.0)(next@16.1.6(@babel/core@7.28.6)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-is@16.13.1)(react@19.2.3)(redux@5.0.1)(typescript@5.9.3)(utf-8-validate@5.0.10)
+        specifier: ^0.1.9
+        version: 0.1.9(@types/react@19.2.10)(bufferutil@4.1.0)(next@16.1.6(@babel/core@7.28.6)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-is@16.13.1)(react@19.2.3)(redux@5.0.1)(typescript@5.9.3)(utf-8-validate@5.0.10)
       next:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.28.6)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -477,8 +477,8 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@qhristen/paygrid@0.1.6':
-    resolution: {integrity: sha512-ZDvm+Fb13Ad4je0hZ3caI6q/zE0GH+JhEbMF439jYwpaI0KibXlOfxRSSwSWx2az3aMr2ijUR/RK9djXmIN36w==}
+  '@qhristen/paygrid@0.1.9':
+    resolution: {integrity: sha512-ZL4zsjji8bSUlWhWkNwuz29x7OxlbtpFAiw28pjkdCXCnBgqvT5DwSOmjiQ3c287e93xpzTpMRdxHCh9tS2Nlg==}
     peerDependencies:
       next: '>=13.0.0'
       react: '>=18.0.0'
@@ -2803,7 +2803,7 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@qhristen/paygrid@0.1.6(@types/react@19.2.10)(bufferutil@4.1.0)(next@16.1.6(@babel/core@7.28.6)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-is@16.13.1)(react@19.2.3)(redux@5.0.1)(typescript@5.9.3)(utf-8-validate@5.0.10)':
+  '@qhristen/paygrid@0.1.9(@types/react@19.2.10)(bufferutil@4.1.0)(next@16.1.6(@babel/core@7.28.6)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-is@16.13.1)(react@19.2.3)(redux@5.0.1)(typescript@5.9.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@libsql/client': 0.6.2(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@lightprotocol/hasher.rs': 0.2.1

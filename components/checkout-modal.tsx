@@ -4,6 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import { PaymentIntent, PaymentStatus, PaymentMethod } from '@/types';
 import { SUPPORTED_TOKENS } from '@/utils';
+import Image from 'next/image';
 
 interface Props {
   isOpen: boolean;
@@ -46,7 +47,9 @@ const CheckoutModal: React.FC<Props> = ({ isOpen, onClose, onSuccess }) => {
         <div className="p-6">
           <div className="flex justify-between items-center mb-6">
             <div className="flex items-center gap-2">
-                <div className="w-6 h-6 bg-indigo-600 rounded flex items-center justify-center text-[10px] font-bold">tt</div>
+                <div className="w-6 h-6 bg-transparent rounded flex items-center justify-center text-[10px] font-bold">
+                  <Image src={`/images/paygrid_icon_transparent.png`} alt='paygrid_icon_transparent.png' width={100} height={100} />
+                </div>
                 <span className="font-bold">PayGrid checkout</span>
             </div>
             <button onClick={onClose} className="text-gray-500 hover:text-white">&times;</button>
